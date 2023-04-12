@@ -1,0 +1,48 @@
+ID 1234:5678 Apple:Keyboard
+REM Author: domikazas
+
+REM a rickroll script for Mac but an upgraded version(for me) that even volumes up before playing the rickroll and says some text that can jumpscare some ppl a little using the say cmd in terminal
+
+REM open the terminal and then do a command that volumes up the volume at half
+DELAY 300
+GUI SPACE
+DELAY 200
+STRING Terminal
+DELAY 300
+ENTER
+DELAY 400
+STRING osascript -e 'set volume 3'
+DELAY 250
+ENTER
+DELAY 350
+
+REM and now it opens the never gonna give you up songs link
+GUI SPACE
+DELAY 300
+STRING https://youtu.be/dQw4w9WgXcQ
+DELAY 300
+ENTER
+DELAY 450
+
+REM goes to terminal and types a command that speaks out this text you can see in the string 
+GUI SPACE
+DELAY 450
+STRING TERMINAL
+DELAY 300
+ENTER
+DELAY 400
+STRING say you got hacked by me lol lol lol hahahahahahahahahahahaha
+DELAY 300
+ENTER
+DELAY 400
+GUI h
+
+REM goes to fullscreen
+DELAY 500
+STRING F
+DELAY 1500
+
+GUI SPACE
+DELAY 300
+STRING YOU GOT RICKROLLED BY domikazas 
+
