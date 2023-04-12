@@ -1,0 +1,69 @@
+ID 1234:5678 Apple:Keyboard
+
+REM Author: domikazas 
+REM Description: this script writes an email to a person you want (!!!ON OSX!!!)
+REM TestedOn/OS: OSX Ventura 13.1
+REM version 2.0
+
+REM !IMPORTANT! Put your wanted e-mail in the ''TARGET EMAIL'' and instead of ''TOPIC'' write your topic and instead of the ''MESSAGE'' write your message, If it doesn't work make the 1000 delay above the enter bigger to like 5000 or smth.
+
+
+REM search gmail link in highlight search (GUI SPACE-CMD SPACE) then presses the tab button until it gets to the create new mail part and there it writes your em, topic, message then its sends the email 
+
+DELAY 300
+GUI SPACE
+DELAY 250
+STRING https://mail.google.com
+DELAY 250
+ENTER
+DELAY 1500
+TAB
+DELAY 150
+TAB
+DELAY 150
+TAB
+DELAY 150
+TAB
+DELAY 150
+TAB
+DELAY 150
+TAB
+DELAY 150
+TAB
+DELAY 150
+TAB
+DELAY 150
+TAB
+DELAY 150
+TAB
+DELAY 150
+TAB
+DELAY 150
+TAB
+DELAY 150
+TAB
+DELAY 150
+TAB
+DELAY 350
+ENTER
+
+DELAY 450
+STRING TARGET EMAIL
+DELAY 450
+TAB
+DELAY 300
+ENTER
+DELAY 250
+TAB
+DELAY 400
+STRING TOPIC
+DELAY 250
+TAB
+DELAY 350
+STRING MESSAGE
+DELAY 300
+TAB
+DELAY 300
+ENTER
+
+
