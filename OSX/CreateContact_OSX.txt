@@ -1,0 +1,36 @@
+ID 1234:5678 Apple:Keyboard
+
+REM Author: domikazas
+
+REM Description: A script that makes a new contact on OSX tho you may ask why couldn't it work on iOS? Well that's bc when I use the tab method it only works for the name an surname and company but when u press it the 4th time it resets but on OSX it just goes to the next which is the number.
+
+REM HOW TO USE: Instead of the ''FIRST NAME'' write your wanted name , in the last name write your wanted ''LAST NAME'' tho if you don't want any last name then instead of that string put TAB, then instead of the ''NUMBER'' write your phone number.
+
+
+
+REM Goes to Highlight Search on OSX(GUI SPACE - CMD SPACE)and in there writes the contacts app, opens it creates a new contact(GUI N - CMD N), after that it quits the app
+
+DELAY 100
+GUI SPACE
+DELAY 250
+STRING Contacts
+DELAY 200
+ENTER
+DELAY 650
+GUI N
+DELAY 350
+STRING FIRST NAME
+DELAY 300
+TAB
+DELAY 200
+STRING LAST NAME
+DELAY 300
+TAB
+DELAY 150
+TAB
+DELAY 250
+STRING NUMBER
+DELAY 250
+GUI S
+DELAY 200
+GUI Q
