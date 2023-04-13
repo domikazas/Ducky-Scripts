@@ -8,4 +8,4 @@ You can use them on: RubberDucky usbs, FlipperZero, O.M.G cables and more. Tho t
 
 !!!!!!!!!!Use at your own risk, IAM not responsible if anything bad happens YOU are!!!!!!!!!!!
 
-BTW if you need more RubberDucky scripts I recommend to chech out UberGuidoZ https://github.com/UberGuidoZ
+BTW if you need more RubberDucky scripts I recommend to check out UberGuidoZ https://github.com/UberGuidoZ
