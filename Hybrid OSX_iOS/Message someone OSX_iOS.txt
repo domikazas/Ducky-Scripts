@@ -1,0 +1,32 @@
+REM Author: domikazas
+REM Description: a script that writes some this to a specific phone number
+
+REM Reminder: replace the [YOUR NUMBER] with your number lol, and you can change the message too(the last string) :)
+
+REM This can be good for OSX too if you change some things
+
+
+
+
+REM goes to Highlight search on iOS or OSX and opens messages app then enter the phone number of someone and writes something to the phone number.
+
+DELAY 400
+GUI SPACE 
+DELAY 400
+BACKSPACE
+DELAY 300
+STRING Messages
+DELAY 450
+ENTER
+DELAY 650
+GUI n 
+DELAY 400
+STRING [YOUR NUMBER]
+DELAY 650
+TAB
+DELAY 600
+TAB
+DELAY 400
+STRING LOLOLOLLLLLOLOLOLOLOLOOLLOLOLLOLOLOL!
+DELAY 300
+ENTER
