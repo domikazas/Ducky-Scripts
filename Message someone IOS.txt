@@ -1,7 +1,7 @@
 REM Author: domikazas
 REM Description: a script that writes some this to a specific phone number
 
-REM Reminder: replace the [YOUR NUMBER] with your number lol, and you can change the message too(the last string) :)
+REM Reminder: replace the [YOUR NUMBER] with your number, and you can change the message too(the last string) :)
 
 REM This can be good for OSX too if you change some things
 
