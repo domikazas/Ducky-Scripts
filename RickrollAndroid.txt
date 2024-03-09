@@ -10,7 +10,7 @@ ENTER
 DELAY 450
 CTRL l 
 DELAY 100 
-STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
+STRING https://youtu.be/uHgt8giw1LY
 DELAY 150
 ENTER
 DELAY 450
